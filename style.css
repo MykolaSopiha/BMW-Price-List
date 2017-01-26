@@ -1,0 +1,76 @@
+/*GENERAL SETTINGS*/
+html {height: 100%;}
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+}
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*HEADER*/
+header .container {
+	max-width: 1280px;
+	height: 420px;
+	margin: 0 auto;
+
+	background-image: url("img/header_background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header .container h1 {
+	position: relative;
+	top: 330px;
+	left: 30px;
+	color: white;
+}
+
+/*MAIN*/
+main .container {
+	max-width: 1280px;
+	margin: 40px auto;
+}
+.button {
+	margin-top: 0;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+/*TABLE*/
+tr.group,
+tr.group:hover {
+    background-color: #ddd !important;
+}
+
+/*FOOTER*/
+footer .container {
+	height: 105px;
+	max-width: 1280px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-size: 14pt;
+}
+footer .container p {
+	padding-top: 40px;
+	margin: 0 auto;
+}
+.scrollup {
+	width: 40px;
+	height: 40px;
+	opacity: 0.3;
+	position: fixed;
+	bottom: 50px;
+	right: 40px;
+	display: none;
+	text-indent: -9999px;
+	background: url("img/icon_top.png") no-repeat;
+}

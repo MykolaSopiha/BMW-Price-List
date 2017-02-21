@@ -32,9 +32,10 @@
 	<main role="main">
 		<div class="container">
 			<div class="button">
-				<button type="button" class="btn btn-default btn-lg">
+				<!-- TODO: SQL to XLSX -->
+				<!-- <button type="button" class="btn btn-default btn-lg">
 					<span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download (xlsx)
-				</button>
+				</button> -->
 			</div>
 			<?php require 'showTable.php'; ?>
 		</div>
